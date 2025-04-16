@@ -21,4 +21,9 @@ public class Student {
 
     @NotBlank
     private String lastName;
+
+    @Column(name = "phone_number")
+    private String phoneNumber;
+    
+
 }
