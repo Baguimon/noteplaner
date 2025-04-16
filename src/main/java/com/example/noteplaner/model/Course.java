@@ -18,4 +18,8 @@ public class Course {
 
     @NotBlank
     private String name;
+
+    @Column(length = 255)
+    private String description;
+
 }
