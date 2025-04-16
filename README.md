@@ -74,21 +74,21 @@ NoteplanerApplication.java
 
 | Ressource  | Méthode | URL                          | Description                         |
 |------------|---------|------------------------------|-------------------------------------|
-| Étudiants  | POST    | `/students`                  | Ajouter un étudiant                 |
-|            | GET     | `/students`                  | Liste des étudiants                 |
+| Étudiants  | POST    | `/students`                  | Ajoute un étudiant                 |
+|            | GET     | `/students`                  | Liste les étudiants                 |
 |            | GET     | `/students/{id}`             | Étudiant par ID                     |
-|            | PUT     | `/students/{id}`             | Modifier un étudiant                |
-|            | DELETE  | `/students/{id}`             | Supprimer un étudiant               |
-| Cours      | POST    | `/courses`                   | Ajouter un cours                    |
-|            | GET     | `/courses`                   | Liste des cours                     |
-|            | GET     | `/courses/{id}`              | Cours par ID                        |
-|            | PUT     | `/courses/{id}`              | Modifier un cours                   |
-|            | DELETE  | `/courses/{id}`              | Supprimer un cours                  |
-| Notes      | POST    | `/grades`                    | Ajouter une note                    |
+|            | PUT     | `/students/{id}`             | Modifie un étudiant                |
+|            | DELETE  | `/students/{id}`             | Supprime un étudiant               |
+| Notes      | POST    | `/grades`                    | Ajoute une note                    |
 |            | GET     | `/grades`                    | Liste des notes                     |
 |            | GET     | `/grades/{id}`               | Note par ID                         |
-|            | PUT     | `/grades/{id}`               | Modifier une note                   |
-|            | DELETE  | `/grades/{id}`               | Supprimer une note                  |
+|            | PUT     | `/grades/{id}`               | Modifie une note                   |
+|            | DELETE  | `/grades/{id}`               | Supprime une note                  |
+| Cours      | POST    | `/courses`                   | Ajoute un cours                    |
+|            | GET     | `/courses`                   | Liste des cours                     |
+|            | GET     | `/courses/{id}`              | Cours par ID                        |
+|            | PUT     | `/courses/{id}`              | Modifie un cours                   |
+|            | DELETE  | `/courses/{id}`              | Supprime un cours                  |
 | Rapports   | GET     | `/reports/course/{courseId}` | Moyenne d'un cours                  |
 |            | GET     | `/reports/student/{studentId}` | Moyenne d'un étudiant             |
 
