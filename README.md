@@ -70,7 +70,7 @@ NoteplanerApplication.java
 
 ## Auteur
 
-**Timothé Winkler**
-**NotePlaner** — réalisé dans le cadre d’un devoir d'API Java Spring Boot.  
-GitHub : [@Baguimon](https://github.com/Baguimon)
+- **Timothé Winkler**
+- **NotePlaner** — réalisé dans le cadre d’un devoir d'API Java Spring Boot.  
+- GitHub : [@Baguimon](https://github.com/Baguimon)
 
