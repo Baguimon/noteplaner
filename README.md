@@ -68,6 +68,32 @@ git clone https://github.com/Baguimon/NotePlaner.git
 NoteplanerApplication.java
 ```
 
+---
+
+## Endpoints disponibles
+
+| Ressource  | Méthode | URL                          | Description                         |
+|------------|---------|------------------------------|-------------------------------------|
+| Étudiants  | POST    | `/students`                  | Ajouter un étudiant                 |
+|            | GET     | `/students`                  | Liste des étudiants                 |
+|            | GET     | `/students/{id}`             | Étudiant par ID                     |
+|            | PUT     | `/students/{id}`             | Modifier un étudiant                |
+|            | DELETE  | `/students/{id}`             | Supprimer un étudiant               |
+| Cours      | POST    | `/courses`                   | Ajouter un cours                    |
+|            | GET     | `/courses`                   | Liste des cours                     |
+|            | GET     | `/courses/{id}`              | Cours par ID                        |
+|            | PUT     | `/courses/{id}`              | Modifier un cours                   |
+|            | DELETE  | `/courses/{id}`              | Supprimer un cours                  |
+| Notes      | POST    | `/grades`                    | Ajouter une note                    |
+|            | GET     | `/grades`                    | Liste des notes                     |
+|            | GET     | `/grades/{id}`               | Note par ID                         |
+|            | PUT     | `/grades/{id}`               | Modifier une note                   |
+|            | DELETE  | `/grades/{id}`               | Supprimer une note                  |
+| Rapports   | GET     | `/reports/course/{courseId}` | Moyenne d'un cours                  |
+|            | GET     | `/reports/student/{studentId}` | Moyenne d'un étudiant             |
+
+---
+
 ## Auteur
 
 - **Timothé Winkler**
